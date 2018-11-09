@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import SectionOne from '../BodyClimo/sectionOne/SectionOne';
 import SectionTwo from '../BodyClimo/sectionTwo/SectionTwo';
+import SectionThree from './sectionThree/SectionThree';
 import './BodyClimo.css';
 
 
@@ -17,7 +18,7 @@ export const BodyClimo = () => (
                         <SectionTwo></SectionTwo>
                     </div>
                     <div className="section">
-                        <p>Section 3</p>
+                        <SectionThree></SectionThree>
                     </div>
                 </ReactFullpage.Wrapper>
             );
