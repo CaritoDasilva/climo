@@ -1,0 +1,20 @@
+.navbarInit{
+    background-color: white;
+   
+}
+
+nav ul a {
+    color: black;
+       
+}
+
+nav .brand-logo {
+    color: black;
+    padding-left: 1%;
+}
+
+.logo{
+    width: 173px;
+    height: 45px;
+    margin: 7%;
+}
