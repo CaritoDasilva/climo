@@ -8,7 +8,7 @@ export default class SectionThree extends Component {
         const imageOne = <img className='imageOne' src="/imgs/los-8-mejores-aires-acondicionados.jpg" />;
         return (
             <div>
-                <Row className='contentCards'>
+                <Row className='contentCardsInfo'>
                     <Col s={12} m={5}>
                         <Card header={<CardTitle reveal image={"/imgs/card1.jpg"} waves='light' />}
                             title="Card Title"

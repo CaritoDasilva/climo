@@ -1,0 +1,11 @@
+Footer{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-copyright {
+align-self: flex-end;
+width: 100%;
+margin-top: 24%;
+}
