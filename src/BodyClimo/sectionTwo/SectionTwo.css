@@ -1,0 +1,13 @@
+.contentCards{
+    display: flex;
+}
+
+.card-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgCard {
+    width: 63%;
+    margin: 16%;
+}

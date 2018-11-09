@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
-
+import SectionOne from '../BodyClimo/sectionOne/SectionOne';
+import SectionTwo from '../BodyClimo/sectionTwo/SectionTwo';
 import './BodyClimo.css';
+
 
 export const BodyClimo = () => (
     <ReactFullpage
@@ -10,10 +11,10 @@ export const BodyClimo = () => (
             return (
                 <ReactFullpage.Wrapper>
                     <div className="section">
-                        <p>Section 1 (welcome to fullpage.js)</p>
+                        <SectionOne></SectionOne>
                     </div>
                     <div className="section">
-                        <p>Section 2</p>
+                        <SectionTwo></SectionTwo>
                     </div>
                     <div className="section">
                         <p>Section 3</p>

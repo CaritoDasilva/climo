@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactFullpage from '@fullpage/react-fullpage';
 import './App.css';
 
 
